@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="320.0" prefWidth="170.0" spacing="40.0" BorderPane.alignment="CENTER">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Button mnemonicParsing="false" prefHeight="85.0" prefWidth="185.0" text="Create Course" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="185.0" text="Remove Course" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="185.0" text="Create Section" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="185.0" text="Remove Section" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="185.0" text="Override Section" />
+         </children>
+      </VBox>
+   </left>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="40.0" top="20.0" />
+   </padding>
+   <top>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Registration tools" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </top>
+   <right>
+      <Pane prefHeight="265.0" prefWidth="333.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="153.0" prefWidth="175.0" spacing="40.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="85.0" prefWidth="185.0" text="Assign Instructor" />
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="185.0" text="Set room number" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="147.0" layoutY="-4.0" prefHeight="160.0" prefWidth="186.0" spacing="40.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="85.0" prefWidth="185.0" text="Set Section Timing" />
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="185.0" text="Set Exam Date" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+            <Button layoutX="84.0" layoutY="173.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="152.0" text="Update Section Information" textAlignment="CENTER" wrapText="true" />
+            <Button layoutX="64.0" layoutY="260.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="192.0" text="Set Registration Timings" />
+         </children>
+      </Pane>
+   </right>
+   <center>
+      <Pane prefHeight="226.0" prefWidth="202.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
