@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SWE205Admin.AdminController">
+   <children>
+      <MenuButton layoutX="191.0" layoutY="98.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="146.0" text="Department">
+        <items>
+            <RadioMenuItem mnemonicParsing="false" text="ICS" />
+        </items>
+      </MenuButton>
+      <Label layoutX="172.0" layoutY="44.0" prefHeight="47.0" prefWidth="225.0" text="Select department." />
+      <MenuButton layoutX="191.0" layoutY="184.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="146.0" text="Course">
+         <items>
+            <RadioMenuItem mnemonicParsing="false" text="ICS102" />
+            <RadioMenuItem mnemonicParsing="false" text="SWE205" />
+         </items>
+      </MenuButton>
+      <Label layoutX="165.0" layoutY="147.0" prefHeight="18.0" prefWidth="278.0" text="Select course." />
+      <Button layoutX="88.0" layoutY="339.0" mnemonicParsing="false" onAction="#ReturnPressed" prefHeight="39.0" prefWidth="84.0" text="Return" />
+      <Button layoutX="346.0" layoutY="337.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="98.0" text="Submit" />
+      <TextField layoutX="170.0" layoutY="268.0" prefHeight="33.0" prefWidth="176.0" />
+      <Label layoutX="165.0" layoutY="234.0" prefHeight="27.0" prefWidth="91.0" text="Instructor" />
+   </children>
+</AnchorPane>

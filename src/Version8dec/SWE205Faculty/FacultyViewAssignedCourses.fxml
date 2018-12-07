@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SWE205Faculty.FacultyController">
+   <children>
+      <Label layoutX="124.0" layoutY="96.0" prefHeight="51.0" prefWidth="291.0" text="Assigned courses:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="124.0" layoutY="275.0" mnemonicParsing="false" onAction="#ReturnPressed" prefHeight="43.0" prefWidth="122.0" text="Return" />
+      <Button layoutX="354.0" layoutY="275.0" mnemonicParsing="false" onAction="#FacultyViewSections" prefHeight="43.0" prefWidth="122.0" text="View Sections" />
+      <Label layoutX="155.0" layoutY="175.0" prefHeight="51.0" prefWidth="291.0" text="SWE205 | 2 SECTIONS">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
