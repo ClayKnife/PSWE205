@@ -28,6 +28,6 @@
       <TextField layoutX="304.0" layoutY="137.0" prefHeight="25.0" prefWidth="164.0" />
       <PasswordField layoutX="133.0" layoutY="204.0" prefHeight="25.0" prefWidth="128.0" />
       <Button layoutX="137.0" layoutY="252.0" mnemonicParsing="false" onAction="#ReturnPressed" prefHeight="30.0" prefWidth="80.0" text="Return" />
-      <Button layoutX="388.0" layoutY="252.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" text="Submit" />
+      <Button layoutX="388.0" layoutY="252.0" mnemonicParsing="false" onAction="#ReturnPressed" prefHeight="30.0" prefWidth="80.0" text="Submit" />
    </children>
 </AnchorPane>
